@@ -151,7 +151,7 @@ void Main()
 		if (Button(Rect{  340, 80, 420, 100 }, catEmoji, font, U"家", U"C{} / 1 CPS"_fmt(homeCost), homeCount, (homeCost <= cookies)))
 		{
 			cookies -= homeCost;
-			++farmCount;
+			++homeCount;
 		}
 	
 		// 農場ボタン
